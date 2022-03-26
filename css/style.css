@@ -50,7 +50,7 @@ img {
 body {
   max-width: 1170px;
   font-family: "Muller", sans-serif;
-  background-color: #E5E5E5;
+  background-color: #F1F1F1;
   margin: auto;
 }
 
@@ -137,7 +137,7 @@ body {
   padding-right: 50px;
 }
 
-.contacts-item-link {
+.contacts-header-link {
   margin-right: auto;
   font-weight: 500;
   font-size: 20px;
@@ -213,7 +213,7 @@ body {
   margin-bottom: 70px;
 }
 
-.hero-item {  
+.hero-item {
   border-radius: 15px;
   min-width: 573px;
   min-height: 258px;
@@ -395,6 +395,9 @@ body {
 }
 
 /* placement */
+.placement {
+  margin-bottom: 70px;
+}
 
 .placement-title {
   margin-bottom: 30px;
@@ -402,7 +405,7 @@ body {
 
 .placement-list-cards {
   flex-wrap: wrap;
-  gap: 23px                                   ;
+  gap: 23px;
 }
 
 .placement-list-card {
@@ -473,4 +476,210 @@ body {
 
 .card-descr-price {
   padding-top: 36px;
+}
+
+/* blog */
+.blog-title {
+  padding-top: 38px;
+  margin-bottom: 19px;
+}
+
+.blog {
+  min-height: 270px;
+  background: #E9E9E9;
+  border-radius: 15px;
+  margin-bottom: 70px;
+}
+
+.form-block {
+  padding-left: 45px;
+}
+
+.form-client {
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #FFFFFF;
+  border-radius: 15px;
+  max-width: 1080px;
+  min-height: 106px;
+}
+
+.form-item {
+  border-right: 1px solid #E1E1E1;
+  outline: none;
+  border: none;
+}
+
+.form {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.form-item-name {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+.form-card {
+  box-sizing: border-box;
+  flex-direction: column;
+  border-right: 1px solid #E1E1E1;
+  padding-right: 20px;
+}
+
+.form-select {
+  padding-right: 20px;
+  min-width: 50px;
+}
+
+.form-input {
+  min-width: 142px;
+}
+
+.form-count {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+/* contacts */
+
+.contacts {
+  margin-bottom: 20px;
+}
+
+.contacts-title {
+  margin-bottom: 20px;
+}
+
+.contacts-main {
+  background: #FFFFFF;
+  border-radius: 15px;
+  justify-content: space-between;
+}
+
+.left-contacts-block {
+  flex-direction: column;
+  padding: 44px 0 0 46px;
+  margin-right: 50px;
+}
+
+.right-contacts-block {
+  width: 100%;
+  height: 100%;
+  padding: 44px 46px 46px 0;
+}
+
+.contacts-item-info {
+  justify-content: space-between;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.contacts-item-info:not(:last-child) {
+  margin-bottom: 23px;
+}
+
+.contacts-item-info:last-child {
+ margin-bottom: 53px;
+}
+
+.contacts-item-name {
+  margin: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  margin-right: 50px;
+}
+
+.contacts-item-descr {
+  width: 230px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+  padding-bottom: 22px;
+}
+
+.contacts-item-link {
+  display: inline-block;
+  color: #CC9933;
+}
+
+.contacts-link-descr {
+  margin: 0;
+  color: #999999;
+}
+
+.btn-contacts {
+  align-self: flex-start;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 27px 29px;
+  margin-bottom: 43px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #333;
+  border-radius: 15px;
+  padding: 50px;
+  background-image: url(../img/lagoona-logo-footer.svg);
+  background-repeat: no-repeat;
+  background-position: 738px 122px;
+}
+
+
+.footer-social-item {
+  color: #999999;
+}
+
+.left-footer {
+  flex-direction: column;
+  width: 300px;
+}
+
+.footer-phone-link-2 {
+  margin-bottom: 15px;
+}
+
+.footer-descr {
+  margin: 0;
+  line-height: 30.4px;
+  color: #FFFFFF;
+  margin-bottom: 38px;
+}
+
+.footer-address {
+  margin-bottom: 14px;
+}
+
+.footer-link {
+  color: #CC9933;
+  line-height: 24px;
+  width: fit-content;
+}
+
+.contacts-phone-footer {
+  margin-bottom: 15px;
+}
+
+.footer-social-links {
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 205px;
+}
+
+.middle-footer {
+  flex-direction: column;
+  margin-right: 150px;
+}
+
+.footer-container {
+  justify-content: space-between;
 }
