@@ -337,16 +337,16 @@
                 </select>
             </div>
             <div class="form-card flex">
-              <label class="form-item-name">Дата прибытия</label>
-                <input class="form form-item form-input" name="date" type="date">
+              <label class="form-item-name" for="date">Дата прибытия</label>
+                <input class="form form-item form-input" id="date" name="date" type="date">
             </div>
             <div class="form-card flex">
-              <label class="form-item-name">Ночей</label>
-                <input class="form form-item form-input form-count" name="count-nights" type="number" min="1" max="10">
+              <label class="form-item-name" for="count-nights">Ночей</label>
+                <input class="form form-item form-input form-count" id="count-nights" name="count-nights" type="number" min="1" max="10">
             </div>
             <div class="form-card flex">
-              <label class="form-item-name">Туристы</label>
-                <input class="form form-item form-input form-count" name="count-people" type="number" min="1" max="10" required>
+              <label class="form-item-name" for="count-people">Туристы</label>
+                <input class="form form-item form-input form-count" id="count-people" name="count-people" type="number" min="1" max="10" required>
             </div>         
             <button class="btn btn-reset form-btn" type="submit">Найти</button>
           </form>
@@ -363,47 +363,34 @@
               <ul class="contacts-name-list list-reset">
                 <li class="contacts-item-info flex">
                   <h3 class="contacts-item-name">Адрес</h3>
-                  <p class="contacts-item-descr">Москва, улица Юности, дом&nbsp;5 строение&nbsp;4, офис&nbsp;2</p>
+                  <address class="contacts-item-descr">Москва, улица Юности, дом&nbsp;5 строение&nbsp;4, офис&nbsp;2</address>
                 </li>
                 <li class="contacts-item-info flex">
                   <h3 class="contacts-item-name">Tелефоны</h3>
                   <div class="contacts-item-descr">
-                    <a class="contacts-item-link" href="tel:74995356434">
-                      +7 (499) 535-64-34
-                    </a>
-                    <a class="contacts-item-link" href="tel:74950050544">
-                      +7 (495) 005-05-44
-                    </a>  
+                    <a class="contacts-item-link" href="tel:74995356434">+7 (499) 535-64-34</a>
+                    <a class="contacts-item-link" href="tel:74950050544">+7 (495) 005-05-44</a>  
                   </div>
                 </li>
                 <li class="contacts-item-info flex">
                   <h3 class="contacts-item-name">E-mail</h3>
                   <div class="contacts-item-descr">
-                    <a class="contacts-item-link" href="e-mail">
-                      lg.oona@mail.ru
-                    </a>
                     <p class="contacts-link-descr">
+                      <a class="contacts-item-link" href="mailto:lg.oona@mail.ru">lg.oona@mail.ru</a><br>
                       по вопросам бронирования
                     </p>
-                    <a class="contacts-item-link" href="e-mail">
-                      hotels.ln@mail.ru
-                    </a>
                     <p class="contacts-link-descr">
+                      <a class="contacts-item-link" href="mailto:hotels.ln@mail.ru">hotels.ln@mail.ru</a><br>
                       по вопросам сотрудничества
                     </p>
                   </div>
                 </li>
                 <li class="contacts-item-info flex">
-                  <h3 class="contacts-item-name">График</h3>
+                  <strong class="contacts-item-name">График</strong>
                   <p class="contacts-item-descr">Понедельник&nbsp;&mdash; пятница, &nbsp; <br> с 10:00 до&nbsp;19:00</p>
                 </li>
               </ul>
-              <button class="btn btn-reset btn-contacts">
-                Построить маршрут
-              </button>
-            </div>
-            <div class="right-contacts-block flex">
-              <img src="../img/contacts-img.jpg" alt="#">
+              <button class="btn btn-reset btn-contacts">Построить маршрут</button>
             </div>
           </div>
         </div>
@@ -419,11 +406,11 @@
         <a href="#" class="user-agreement footer-link">Пользовательское соглашение</a>
       </div>
       <div class="middle-footer flex">
-        <p class="footer-descr footer-address">11710, улица Юности, дом 5&nbsp;строение&nbsp;4, офис&nbsp;2</p>
+        <address class="footer-descr footer-address">11710, улица Юности, дом 5&nbsp;строение&nbsp;4, офис&nbsp;2</address>
         <a href="tel:74995356434" class="footer-phone-link footer-link">+7 (499) 535-64-34</a>
         <a href="tel:74950050544" class="footer-phone-link-2 footer-link">+7 (495) 005-05-44</a>
-        <a href="e-mail" class="footer-mail-links footer-link">lg.oona@mail.ru</a>
-        <a href="e-mail" class="footer-mail-links footer-link">hotels.ln@mail.ru</a>
+        <a href="mailto:lg.oona@mail.ru" class="footer-mail-links footer-link">lg.oona@mail.ru</a>
+        <a href="mailto:hotels.ln@mail.ru" class="footer-mail-links footer-link">hotels.ln@mail.ru</a>
       </div>
       <div class="right-footer">
         <ul class="footer-social-links list-reset flex">
